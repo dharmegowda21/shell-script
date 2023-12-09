@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "odd numbers between 1-100 are"
+for(( i=1 ; i<=100 ; i++ ))
+do
+if [ `expr $i % 2` -eq 1 ]
+then
+echo "$i"
+fi
+done
