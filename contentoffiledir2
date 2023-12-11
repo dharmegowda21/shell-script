@@ -1,0 +1,18 @@
+#!/bin/bash
+#set -x
+echo "enter the name to check"
+read name
+if [ -f $name ]
+then
+echo "$name is a file and display the content of the $name"
+sed -n '1,$p' $name
+echo "total lines present in $name is"
+sed -n '1,$p' $name | wc -l
+elif [ -d $name ]
+then
+echo "$name is directory"
+echo "$name contains below files"
+find ./ $name -maxdepth 1 -type f -iname "*"
+else
+echo "$name doesn't exist"
+fi
