@@ -1,0 +1,11 @@
+#!/bin/bash
+services="Dell"
+for i in services
+do
+sudo service $i status
+if [ $? -ne 0 ]
+then
+echo -e "the service $i is not running \nplease take the appro action"
+sudo service $i start
+fi
+done
