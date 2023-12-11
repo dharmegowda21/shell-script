@@ -8,4 +8,3 @@ echo "$2 is small"
 else
 echo "$3 is small"
 fi
-
