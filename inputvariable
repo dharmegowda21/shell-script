@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "this is $1 class $2 on $3"
+echo "this is $4 in devops"
