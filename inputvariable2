@@ -1,0 +1,8 @@
+#!/bin/bash
+var="ABC"
+age="22"
+num="2 4 6 8"
+echo "this is $var and the age is $age"
+echo "$num are even numbers"
+
+
