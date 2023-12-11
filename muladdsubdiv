@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "enter numbers"
+read a b
+echo "multiplication"
+echo `expr $a \* $b`
+echo "division"
+echo `expr $a / $b`
+echo "addition"
+echo `expr $a + $b`
+echo "subtraction"
+echo `expr $a - $b`
