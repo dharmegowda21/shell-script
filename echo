@@ -1,0 +1,3 @@
+#!/bin/bash
+echo -e "hai \nthis is devops class"
+echo -e "helo world"
