@@ -1,0 +1,9 @@
+#!/bin/bash
+natnum=$1
+fact=1
+while [ $natnum -gt 1 ]
+do
+fact=`expr $fact \* $natnum`
+natnum=`expr $natnum  - 1`
+done
+echo " factorial of given $1 natural number is $fact"
