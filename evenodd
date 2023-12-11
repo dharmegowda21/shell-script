@@ -1,5 +1,6 @@
 #!/bin/bash
-echo -n "enter a number "
+set -x
+echo "enter a number"
 read num
 if [ `expr $num % 2` -eq 0 ]
 then
