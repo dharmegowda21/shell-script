@@ -1,0 +1,11 @@
+#!/bin/bash
+read -p "enter first number:- "x
+read -p "enter second number:- "y
+let mul = $x * $y
+echo "multiplication of $x and $y is $mul"
+let add = $x + $y
+echo "addidtion of $x and $y is $add"
+let sub = $x - $y
+echo "substraction of $x and $y is $sub"
+div = $[x/y]
+echo "division of $x and $y is $div"
